@@ -20,7 +20,3 @@ $(EXEC): $(OBJS)
 clean:
 	rm -rf $(EXEC) $(OBJS)
 
-.PHONY: chtime
-chtime:
-	touch $(EXEC) $(OBJS)
-
